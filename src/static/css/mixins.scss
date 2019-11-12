@@ -1,0 +1,9 @@
+@mixin categories__link_active {
+    background-color: $background_gray;
+    .category__link__p {
+      color:#fff;
+      &:before{
+        background-image: url("./../img/Vector.png");
+      }
+    }
+}

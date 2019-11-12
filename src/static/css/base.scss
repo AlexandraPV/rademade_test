@@ -1,0 +1,44 @@
+button {
+  outline: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F8F9FA;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+input,
+textarea {
+  outline: none;
+}
+
+
+
+.container{
+  max-width: 1020px;
+  width: 90%;
+  margin: auto;
+}
+
