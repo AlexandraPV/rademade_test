@@ -7,3 +7,11 @@
       }
     }
 }
+
+.base__pseudo__elem{
+   content: '';
+    position: absolute;
+    right: 5px;
+    border: 7px solid transparent;
+    border-radius: 1px;
+}

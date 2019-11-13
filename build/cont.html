@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Test work!</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__logo logo"><a class="logo__link" href="#"><img class="logo__img" src="./img/Logo.png"></a></div>
+        <nav class="header__nav"><a class="header__nav__link active-link" href="#">Notifications</a><a class="header__nav__link" href="#">Unselected tab</a><a class="header__nav__link" href="#">Unselected tab</a><a class="header__nav__link" href="#">Unselected tab</a></nav>
+        <div class="header__profile profile">
+          <div class="profile__bell"><a class="profile__bell__link" href="#"><img class="profile__bell__img" src="./img/bell.png"></a></div>
+          <div class="profile__person"><a class="profile__person__link" href="#"><img class="profile__person__img" src="./img/Avatar.png"></a></div>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="main__container container">
+        <div class="container__title">
+          <h1 class="container__title__h1">Notifications</h1>
+          <div class="container__title__filter">
+            <p class="container__title__filter__label">View:</p>
+            <p class="container__title__filter__type accent_text">All types</p>
+            <input class="container__title__filter__onclick" type="checkbox">
+            <div class="container__title__select">
+              <p class="container__title__select__elem-link menu-elems__elem-link not-active-types">All types</p><a class="container__title__select__elem-link menu-elems__elem-link" href="#">Type 1</a><a class="container__title__select__elem-link menu-elems__elem-link" href="#">Type 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="container__content">
+          <div class="container__content__categories categories">
+            <div class="categories__elem category"><a class="category__link" href="#">
+                <p class="category__link__p">All Categories</p></a></div>
+            <div class="categories__elem category"><a class="category__link" href="#">
+                <p class="category__link__p">Category 1</p></a></div>
+            <div class="categories__elem category"><a class="category__link category__link-active" href="#">
+                <p class="category__link__p">Category 2</p></a></div>
+            <div class="categories__elem category"><a class="category__link" href="#">
+                <p class="category__link__p">Category 3</p></a></div>
+          </div>
+          <div class="container__content__notes notes">
+            <div class="notes__item note select-item">
+              <div class="note__header">
+                <div class="note__header__content">
+                  <p class="note__header__content__type">Type 1</p>
+                  <p class="note__header__content__date">Today, 10:42 AM</p>
+                </div>
+                <div class="note__header__menu-icon">
+                  <div class="note__header__menu">
+                    <div class="note__header__menu__elems menu-elems"><a class="menu-elems__elem-link" href="#">Menu item 1</a><a class="menu-elems__elem-link" href="#">Menu item 2</a><a class="menu-elems__elem-link" href="#">Menu item 3</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notes__item__text"><a class="notes__item__text__title" href="#">Primary notification content (clickable)</a>
+                <p class="notes__item__text__describe">Secondary notification content; <span class="accent_text">requirements:</span> might include various info in few lines that can be highlighted inline</p>
+              </div>
+            </div>
+            <div class="notes__item note select-item">
+              <div class="note__header">
+                <div class="note__header__content">
+                  <p class="note__header__content__type">Type 1</p>
+                  <p class="note__header__content__date">Today, 10:42 AM</p>
+                </div>
+                <div class="note__header__menu-icon">
+                  <div class="note__header__menu">
+                    <div class="note__header__menu__elems menu-elems"><a class="menu-elems__elem-link" href="#">Menu item 1</a><a class="menu-elems__elem-link" href="#">Menu item 2</a><a class="menu-elems__elem-link" href="#">Menu item 3</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notes__item__text"><a class="notes__item__text__title" href="#">Primary notification content (clickable)</a>
+                <p class="notes__item__text__describe">Secondary notification content; <span class="accent_text">requirements:</span> might include various info in few lines that can be highlighted inline</p>
+              </div>
+            </div>
+            <div class="notes__item note">
+              <div class="note__header">
+                <div class="note__header__content">
+                  <p class="note__header__content__type">Type 2</p>
+                  <p class="note__header__content__date">Today, 10:42 AM</p>
+                </div>
+                <div class="note__header__menu-icon">
+                  <div class="note__header__menu">
+                    <div class="note__header__menu__elems menu-elems"><a class="menu-elems__elem-link" href="#">Menu item 1</a><a class="menu-elems__elem-link" href="#">Menu item 2</a><a class="menu-elems__elem-link" href="#">Menu item 3</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notes__item__text"><a class="notes__item__text__title" href="#">Primary notification content (clickable)</a>
+                <p class="notes__item__text__describe">Secondary notification content</p>
+              </div>
+            </div>
+            <div class="notes__item note">
+              <div class="note__header">
+                <div class="note__header__content">
+                  <p class="note__header__content__type">Type 2</p>
+                  <p class="note__header__content__date">Today, 10:42 AM</p>
+                </div>
+                <div class="note__header__menu-icon">
+                  <div class="note__header__menu">
+                    <div class="note__header__menu__elems menu-elems"><a class="menu-elems__elem-link" href="#">Menu item 1</a><a class="menu-elems__elem-link" href="#">Menu item 2</a><a class="menu-elems__elem-link" href="#">Menu item 3</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notes__item__text"><a class="notes__item__text__title" href="#">Primary notification content (clickable)</a>
+                <p class="notes__item__text__describe">Secondary notification content</p>
+              </div>
+            </div>
+            <div class="notes__item note">
+              <div class="note__header">
+                <div class="note__header__content">
+                  <p class="note__header__content__type">Type 2</p>
+                  <p class="note__header__content__date">Today, 10:42 AM</p>
+                </div>
+                <div class="note__header__menu-icon">
+                  <div class="note__header__menu">
+                    <div class="note__header__menu__elems menu-elems"><a class="menu-elems__elem-link" href="#">Menu item 1</a><a class="menu-elems__elem-link" href="#">Menu item 2</a><a class="menu-elems__elem-link" href="#">Menu item 3</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notes__item__text"><a class="notes__item__text__title" href="#">Primary notification content (clickable)</a>
+                <p class="notes__item__text__describe">Secondary notification content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
