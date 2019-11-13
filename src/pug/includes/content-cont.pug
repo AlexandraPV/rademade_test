@@ -15,17 +15,33 @@ section.main
                 div.categories__elem.category
                     a(href="#").category__link
                         p.category__link__p All Categories
-                div.category__elem
+                div.categories__elem.category
                     a(href="#").category__link
                         p.category__link__p Category 1
-                div.category__elem
+                div.categories__elem.category
                     a(href="#").category__link.category__link-active
                         p.category__link__p Category 2
-                div.category__elem
+                div.categories__elem.category
                     a(href="#").category__link
                         p.category__link__p Category 3
             div.container__content__notes.notes
-                div.notes__item.note
+                div.notes__item.note.select-item
+                    div.note__header
+                        div.note__header__content
+                            p.note__header__content__type Type 1
+                            p.note__header__content__date Today, 10:42 AM
+                        div.note__header__menu-icon
+                            div.note__header__menu
+                                div.note__header__menu__elems.menu-elems
+                                    a(href="#").menu-elems__elem-link Menu item 1
+                                    a(href="#").menu-elems__elem-link Menu item 2
+                                    a(href="#").menu-elems__elem-link Menu item 3
+
+                    div.notes__item__text
+                        a(href="#").notes__item__text__title Primary notification content (clickable)
+                        p.notes__item__text__describe Secondary notification content; #[span.accent_text requirements:] might include various info in few lines that can be highlighted inline
+
+                div.notes__item.note.select-item
                     div.note__header
                         div.note__header__content
                             p.note__header__content__type Type 1
@@ -44,7 +60,7 @@ section.main
                 div.notes__item.note
                     div.note__header
                         div.note__header__content
-                            p.note__header__content__type Type 1
+                            p.note__header__content__type Type 2
                             p.note__header__content__date Today, 10:42 AM
                         div.note__header__menu-icon
                             div.note__header__menu
@@ -55,12 +71,12 @@ section.main
 
                     div.notes__item__text
                         a(href="#").notes__item__text__title Primary notification content (clickable)
-                        p.notes__item__text__describe Secondary notification content; #[span.accent_text requirements:] might include various info in few lines that can be highlighted inline
+                        p.notes__item__text__describe Secondary notification content
 
                 div.notes__item.note
                     div.note__header
                         div.note__header__content
-                            p.note__header__content__type Type 1
+                            p.note__header__content__type Type 2
                             p.note__header__content__date Today, 10:42 AM
                         div.note__header__menu-icon
                             div.note__header__menu
@@ -71,12 +87,12 @@ section.main
 
                     div.notes__item__text
                         a(href="#").notes__item__text__title Primary notification content (clickable)
-                        p.notes__item__text__describe Secondary notification content; #[span.accent_text requirements:] might include various info in few lines that can be highlighted inline
+                        p.notes__item__text__describe Secondary notification content
 
                 div.notes__item.note
                     div.note__header
                         div.note__header__content
-                            p.note__header__content__type Type 1
+                            p.note__header__content__type Type 2
                             p.note__header__content__date Today, 10:42 AM
                         div.note__header__menu-icon
                             div.note__header__menu
@@ -87,23 +103,7 @@ section.main
 
                     div.notes__item__text
                         a(href="#").notes__item__text__title Primary notification content (clickable)
-                        p.notes__item__text__describe Secondary notification content; #[span.accent_text requirements:] might include various info in few lines that can be highlighted inline
-
-                div.notes__item.note
-                    div.note__header
-                        div.note__header__content
-                            p.note__header__content__type Type 1
-                            p.note__header__content__date Today, 10:42 AM
-                        div.note__header__menu-icon
-                            div.note__header__menu
-                                div.note__header__menu__elems.menu-elems
-                                    a(href="#").menu-elems__elem-link Menu item 1
-                                    a(href="#").menu-elems__elem-link Menu item 2
-                                    a(href="#").menu-elems__elem-link Menu item 3
-
-                    div.notes__item__text
-                        a(href="#").notes__item__text__title Primary notification content (clickable)
-                        p.notes__item__text__describe Secondary notification content; #[span.accent_text requirements:] might include various info in few lines that can be highlighted inline
+                        p.notes__item__text__describe Secondary notification content
 
                         
 
